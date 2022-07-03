@@ -7,7 +7,7 @@ programa
 		real salario,numefilhos,ftotal = 0.0, stotal=0.0, medfilho, medsalario, salarao=100.0, ss, s100=0.0
 
 		
-		para (n=1;n<=20;n++)
+		para (n=1;n<=4;n++)
 		{
 			escreva("Digite o valor do seu salário: ")
 			leia(salario)
@@ -36,9 +36,9 @@ programa
 					}
 		}
 		 
-		 medfilho= ftotal/20
-		 medsalario= stotal/20
-		 ss=(s100*100)/20
+		 medfilho= ftotal/4
+		 medsalario= stotal/4
+		 ss=(s100*100)/4
 
 		 escreva("\nA média do salário é: ",medsalario)
 		 escreva("\nA média do número de filhos é: ",medfilho)
@@ -51,8 +51,8 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 604; 
- * @PONTOS-DE-PARADA = ;
+ * @POSICAO-CURSOR = 33; 
+ * @PONTOS-DE-PARADA = 6, 7, 12, 13, 15, 16, 17, 19, 20, 22, 23, 24, 26, 27, 28;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
